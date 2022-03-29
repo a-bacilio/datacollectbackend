@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Logger from "../shared/logger/appLogger";
+import Logger from "../modules/shared/logger/appLogger";
 
 export default (db: string): void => {
   try {

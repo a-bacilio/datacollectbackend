@@ -1,8 +1,11 @@
 import dotenv from "dotenv";
 import express, { Application, NextFunction, Request, Response } from "express";
-import morgan from "./shared/logger/morganLogger";
-
-
+import morgan from "./modules/shared/logger/morganLogger";
+import authRoutes from "./modules/auth/routes/authRoutes"
+import projectRoutes from "./modules/projects/routes/projectsRoutes"
+import questionRoutes from "./modules/questions/routes/questionRoutes"
+import registerRoutes from "./modules/registers/routes/registerRoutes"
+import qrColaboratorRoutes from "./modules/colaborator/routes/qrColaboratorRoutes"
 
 dotenv.config();
 const app: Application = express();
@@ -24,8 +27,12 @@ app.use(express.json());
 
 // routes
 
-//app.use("/api/v1", authRoutes);
-//app.use("/api/v1", userTokenVerification, paymentroutes);
+app.use("/api/v1", authRoutes);
+app.use("/api/v1", projectRoutes);
+app.use("/api/v1", questionRoutes);
+app.use("/api/v1", registerRoutes);
+app.use("/api/v1", qrColaboratorRoutes);
+
 
 
 // error handler
