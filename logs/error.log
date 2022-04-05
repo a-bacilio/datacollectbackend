@@ -3345,3 +3345,224 @@ Error: ⨯ Unable to compile TypeScript:
     at Module.require (node:internal/modules/cjs/loader:1005:19)
 
       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-29 11:57:33:5733 [31merror[39m: 	uncaughtException: error connecting database
+Error: error connecting database
+    at NativeConnection.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\config\config.ts:8:13)
+    at NativeConnection.emit (node:events:520:28)
+    at F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\mongoose\lib\connection.js:817:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+      trace: [object Object],[object Object],[object Object],[object Object]
+2022-03-30 13:21:05:215 [31merror[39m: 	Error login user
+
+    instance: services->  trace: Usuario o correo es incorrecto
+2022-03-30 15:27:39:2739 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:31:49:3149 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:41:3241 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:42:3242 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:43:3243 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:43:3243 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:43:3243 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:43:3243 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:43:3243 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:44:3244 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:44:3244 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:44:3244 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:45:3245 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:45:3245 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:45:3245 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 15:32:45:3245 [31merror[39m: 	error validating body request la contraseña debe ser de al menos 8 caracteres
+
+    instance: middlewares schema validation->  trace: la contraseña debe ser de al menos 8 caracteres
+2022-03-30 23:48:58:4858 [31merror[39m: 	uncaughtException: error connecting database
+Error: error connecting database
+    at NativeConnection.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\config\config.ts:8:13)
+    at NativeConnection.emit (node:events:520:28)
+    at F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\mongoose\lib\connection.js:817:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+      trace: [object Object],[object Object],[object Object],[object Object]
+2022-03-31 15:11:05:115 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/create/createQuestionService.ts[0m:[93m15[0m:[93m94[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m15[0m     const newQuestion:IQuestion = await questionModel.create({...question,name:question.name.replace()});
+[7m  [0m [91m                                                                                             ~~~~~~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m449[0m:[93m13[0m
+    [7m449[0m     replace(searchValue: string | RegExp, replaceValue: string): string;
+    [7m   [0m [96m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'searchValue' was not provided.
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/create/createQuestionService.ts[0m:[93m15[0m:[93m94[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m15[0m     const newQuestion:IQuestion = await questionModel.create({...question,name:question.name.replace()});
+[7m  [0m [91m                                                                                             ~~~~~~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m449[0m:[93m13[0m
+    [7m449[0m     replace(searchValue: string | RegExp, replaceValue: string): string;
+    [7m   [0m [96m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'searchValue' was not provided.
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\services\create\createQuestionService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-159649535461583.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-159649535461583.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-04-01 15:08:42:842 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/projects/services/deleteQuestions/deleteQuestionService.ts[0m:[93m15[0m:[93m76[0m - [91merror[0m[90m TS2693: [0m'ObjectId' only refers to a type, but is being used as a value here.
+
+[7m15[0m     const questions = project?.questions?.filter(question=>question!== new ObjectId(body.questionId));
+[7m  [0m [91m                                                                           ~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/projects/services/deleteQuestions/deleteQuestionService.ts[0m:[93m15[0m:[93m76[0m - [91merror[0m[90m TS2693: [0m'ObjectId' only refers to a type, but is being used as a value here.
+
+[7m15[0m     const questions = project?.questions?.filter(question=>question!== new ObjectId(body.questionId));
+[7m  [0m [91m                                                                           ~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\projects\services\deleteQuestions\deleteQuestionService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7346086038591524.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7346086038591524.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-04-01 17:19:47:1947 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/projects/services/delete/deleteProjectController.ts[0m:[93m3[0m:[93m34[0m - [91merror[0m[90m TS6142: [0mModule './deleteProjectService' was resolved to 'F:/0001 Anthony/0002 Proyectos/0004 Cuenta Propia/0046 MakeitReal/0023 Proyecto personal/server/src/modules/projects/services/delete/deleteProjectService.tsx', but '--jsx' is not set.
+
+[7m3[0m import deleteProjectService from "./deleteProjectService";
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/projects/services/delete/deleteProjectController.ts[0m:[93m3[0m:[93m34[0m - [91merror[0m[90m TS6142: [0mModule './deleteProjectService' was resolved to 'F:/0001 Anthony/0002 Proyectos/0004 Cuenta Propia/0046 MakeitReal/0023 Proyecto personal/server/src/modules/projects/services/delete/deleteProjectService.tsx', but '--jsx' is not set.
+
+[7m3[0m import deleteProjectService from "./deleteProjectService";
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\projects\services\delete\deleteProjectController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-11180884587019713.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-11180884587019713.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-04-04 21:15:13:1513 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/colaborator/services/generateColaboratorTokenService.ts[0m:[93m10[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'Query<(Document<unknown, any, IProject> & IProject & { _id: ObjectId | undefined; }) | null, Document<unknown, any, IProject> & IProject & { ...; }, {}, IProject>'.
+
+[7m10[0m     return createAuthToken({projectId:project._id, name})
+[7m  [0m [91m                                              ~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/colaborator/services/generateColaboratorTokenService.ts[0m:[93m10[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'Query<(Document<unknown, any, IProject> & IProject & { _id: ObjectId | undefined; }) | null, Document<unknown, any, IProject> & IProject & { ...; }, {}, IProject>'.
+
+[7m10[0m     return createAuthToken({projectId:project._id, name})
+[7m  [0m [91m                                              ~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\colaborator\services\generateColaboratorTokenService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9483021972872112.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9483021972872112.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-04-04 21:15:45:1545 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/colaborator/services/generateColaboratorTokenService.ts[0m:[93m10[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'Query<(Document<unknown, any, IProject> & IProject & { _id: ObjectId | undefined; }) | null, Document<unknown, any, IProject> & IProject & { ...; }, {}, IProject>'.
+
+[7m10[0m     return createAuthToken({projectId:project._id, name})
+[7m  [0m [91m                                              ~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/colaborator/services/generateColaboratorTokenService.ts[0m:[93m10[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'Query<(Document<unknown, any, IProject> & IProject & { _id: ObjectId | undefined; }) | null, Document<unknown, any, IProject> & IProject & { ...; }, {}, IProject>'.
+
+[7m10[0m     return createAuthToken({projectId:project._id, name})
+[7m  [0m [91m                                              ~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\colaborator\services\generateColaboratorTokenService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9483021972872112.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9483021972872112.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-04-04 21:32:12:3212 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/colaborator/services/generateColaboratorTokenService.ts[0m:[93m10[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'Query<(Document<unknown, any, IProject> & IProject & { _id: ObjectId | undefined; }) | null, Document<unknown, any, IProject> & IProject & { ...; }, {}, IProject>'.
+
+[7m10[0m     return createAuthToken({projectId:project._id, name})
+[7m  [0m [91m                                              ~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/colaborator/services/generateColaboratorTokenService.ts[0m:[93m10[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'Query<(Document<unknown, any, IProject> & IProject & { _id: ObjectId | undefined; }) | null, Document<unknown, any, IProject> & IProject & { ...; }, {}, IProject>'.
+
+[7m10[0m     return createAuthToken({projectId:project._id, name})
+[7m  [0m [91m                                              ~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\colaborator\services\generateColaboratorTokenService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9483021972872112.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9483021972872112.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]

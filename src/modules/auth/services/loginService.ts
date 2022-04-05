@@ -1,16 +1,15 @@
+import { UserIdType } from './../../users/entity/types/user.d';
 import logger from "../../shared/logger/appLogger";
 import { getOneUserByEmail } from "../../users/services/getOneUserByEmail"
 import { isValidPassword } from "../../utils/passwordManager";
 import { createAuthToken } from "../../utils/tokenManager";
 import { ILoginUser } from "../types/manageUser";
 
-export type TokenResponse = {
-  authToken: string;
-};
+
 
 export const loginService = async (
   userRequest: ILoginUser
-): Promise<TokenResponse> => {
+): Promise<{token:string, userId:UserIdType, userName:string}> => {
   try {
     const user = await getOneUserByEmail(userRequest.email);
     if (!user) throw new Error("Usuario o correo es incorrecto");
@@ -18,10 +17,8 @@ export const loginService = async (
     const auth = await isValidPassword(userRequest.password, user.password);
     if (!auth) throw new Error("Usuario o correo es incorrecto");
 
-    const authToken = createAuthToken({ id: user.id });
-    return {
-      authToken,
-    };
+    const token = createAuthToken({ id: user.id });
+    return {token,userId:user.id,userName:user.name};
   } catch (error: any) {
     logger.error("Error login user", {
       instance: "services",

@@ -9,7 +9,7 @@ const updateQuestionService = async (questionId:{id:string},question: ICreateQue
     if (Object.keys(question).length === 0) {
       throw new Error("question object is empty");
     }
-    const updatedQuestion: IQuestion|null = await questionModel.findOneAndUpdate({_id:questionId.id},question,{new:true});
+    const updatedQuestion: IQuestion|null = await questionModel.findOneAndUpdate({_id:questionId.id},{...question, name:question.name.replace(/[^a-zA-Z1-9]/g, "")},{new:true});
 
     return updatedQuestion;
   } catch (error: any) {

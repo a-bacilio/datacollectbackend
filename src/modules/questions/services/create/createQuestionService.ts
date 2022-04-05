@@ -12,7 +12,7 @@ const createQuestionService = async (question: ICreateQuestion): Promise<IQuesti
     }
     const project = await projectModel.findOne({id:question.project});
     const questions = project?.questions;
-    const newQuestion:IQuestion = await questionModel.create(question);
+    const newQuestion:IQuestion = await questionModel.create({...question,name:question.name.replace(/[^a-zA-Z1-9]/g, "")});
     questions?.push(
       newQuestion._id as Types.ObjectId,
     )
