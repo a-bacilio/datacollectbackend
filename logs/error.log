@@ -3566,3 +3566,266 @@ Error: ⨯ Unable to compile TypeScript:
     at Module.require (node:internal/modules/cjs/loader:1005:19)
 
       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-02 19:15:06:156 [31merror[39m: 	Error login user
+
+    instance: services->  trace: Usuario o correo es incorrecto
+2022-05-02 21:54:21:5421 [31merror[39m: 	Error login user
+
+    instance: services->  trace: Usuario o correo es incorrecto
+2022-05-03 11:09:49:949 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m22[0m - [91merror[0m[90m TS7031: [0mBinding element 'string' implicitly has an 'any' type.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                     ~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m36[0m - [91merror[0m[90m TS2693: [0m'ICreateRegister' only refers to a type, but is being used as a value here.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m36[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.
+
+[7m8[0m   res: Response,
+[7m [0m [91m  ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m8[0m:[93m8[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.
+
+[7m8[0m   res: Response,
+[7m [0m [91m       ~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'next'.
+
+[7m9[0m   next: NextFunction
+[7m [0m [91m  ~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2693: [0m'NextFunction' only refers to a type, but is being used as a value here.
+
+[7m9[0m   next: NextFunction
+[7m [0m [91m        ~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m12[0m:[93m50[0m - [91merror[0m[90m TS2304: [0mCannot find name 'req'.
+
+[7m12[0m     const question = await createRegisterService(req.body,req.params);
+[7m  [0m [91m                                                 ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m12[0m:[93m59[0m - [91merror[0m[90m TS2304: [0mCannot find name 'req'.
+
+[7m12[0m     const question = await createRegisterService(req.body,req.params);
+[7m  [0m [91m                                                          ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m12[0m:[93m59[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m12[0m     const question = await createRegisterService(req.body,req.params);
+[7m  [0m [91m                                                          ~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.
+
+[7m13[0m     res.status(200).json(question);
+[7m  [0m [91m    ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'next'.
+
+[7m15[0m     next(new ApplicationError(400, error.message, error.errorType));
+[7m  [0m [91m    ~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m18[0m - [91merror[0m[90m TS1131: [0mProperty or signature expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                 ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                            ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m30[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                             ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                 ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m52[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                                   ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m8[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m8[0m   res: Response,
+[7m [0m [91m     ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m9[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m9[0m   next: NextFunction
+[7m [0m [91m      ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m10[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m10[0m ) => {
+[7m  [0m [91m~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m10[0m ) => {
+[7m  [0m [91m  ~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m22[0m - [91merror[0m[90m TS7031: [0mBinding element 'string' implicitly has an 'any' type.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                     ~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m36[0m - [91merror[0m[90m TS2693: [0m'ICreateRegister' only refers to a type, but is being used as a value here.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m36[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.
+
+[7m8[0m   res: Response,
+[7m [0m [91m  ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m8[0m:[93m8[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.
+
+[7m8[0m   res: Response,
+[7m [0m [91m       ~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'next'.
+
+[7m9[0m   next: NextFunction
+[7m [0m [91m  ~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2693: [0m'NextFunction' only refers to a type, but is being used as a value here.
+
+[7m9[0m   next: NextFunction
+[7m [0m [91m        ~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m12[0m:[93m50[0m - [91merror[0m[90m TS2304: [0mCannot find name 'req'.
+
+[7m12[0m     const question = await createRegisterService(req.body,req.params);
+[7m  [0m [91m                                                 ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m12[0m:[93m59[0m - [91merror[0m[90m TS2304: [0mCannot find name 'req'.
+
+[7m12[0m     const question = await createRegisterService(req.body,req.params);
+[7m  [0m [91m                                                          ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m12[0m:[93m59[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m12[0m     const question = await createRegisterService(req.body,req.params);
+[7m  [0m [91m                                                          ~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.
+
+[7m13[0m     res.status(200).json(question);
+[7m  [0m [91m    ~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'next'.
+
+[7m15[0m     next(new ApplicationError(400, error.message, error.errorType));
+[7m  [0m [91m    ~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m18[0m - [91merror[0m[90m TS1131: [0mProperty or signature expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                 ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                            ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m30[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                             ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                 ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m7[0m:[93m52[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m7[0m   req: Request <{{id:string}}, {}, ICreateRegister>,
+[7m [0m [91m                                                   ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m8[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m8[0m   res: Response,
+[7m [0m [91m     ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m9[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m9[0m   next: NextFunction
+[7m [0m [91m      ~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m10[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m10[0m ) => {
+[7m  [0m [91m~[0m
+[96msrc/modules/registers/Services/create/createRegisterController.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m10[0m ) => {
+[7m  [0m [91m  ~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\create\createRegisterController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7057581140744793.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7057581140744793.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-03 11:10:24:1024 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m8[0m:[93m9[0m - [91merror[0m[90m TS7031: [0mBinding element 'string' implicitly has an 'any' type.
+
+[7m8[0m   { id: string }
+[7m [0m [91m        ~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m8[0m:[93m9[0m - [91merror[0m[90m TS7031: [0mBinding element 'string' implicitly has an 'any' type.
+
+[7m8[0m   { id: string }
+[7m [0m [91m        ~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\create\createRegisterService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7057581140744793.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7057581140744793.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-03 11:12:43:1243 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m7[0m:[93m3[0m - [91merror[0m[90m TS7006: [0mParameter 'register' implicitly has an 'any' type.
+
+[7m7[0m   register,
+[7m [0m [91m  ~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS7006: [0mParameter 'id' implicitly has an 'any' type.
+
+[7m8[0m   id
+[7m [0m [91m  ~~[0m
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m9[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<{ register: IRegister; id: string; }>'?
+
+[7m9[0m ): { register: IRegister; id: string } => {
+[7m [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m7[0m:[93m3[0m - [91merror[0m[90m TS7006: [0mParameter 'register' implicitly has an 'any' type.
+
+[7m7[0m   register,
+[7m [0m [91m  ~~~~~~~~[0m
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS7006: [0mParameter 'id' implicitly has an 'any' type.
+
+[7m8[0m   id
+[7m [0m [91m  ~~[0m
+[96msrc/modules/registers/Services/create/createRegisterService.ts[0m:[93m9[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<{ register: IRegister; id: string; }>'?
+
+[7m9[0m ): { register: IRegister; id: string } => {
+[7m [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\create\createRegisterService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7057581140744793.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7057581140744793.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-03 11:37:37:3737 [31merror[39m: 	error validating body request La confirmación de contraseña es requerida
+
+    instance: middlewares schema validation->  trace: La confirmación de contraseña es requerida
+2022-05-03 11:38:06:386 [31merror[39m: 	error validating body request La confirmación de contraseña es requerida
+
+    instance: middlewares schema validation->  trace: La confirmación de contraseña es requerida
+2022-05-03 11:38:18:3818 [31merror[39m: 	error validating body request La confirmación de contraseña es requerida
+
+    instance: middlewares schema validation->  trace: La confirmación de contraseña es requerida

@@ -1,10 +1,9 @@
-import { ApplicationError } from './../../../shared/customErrors/ApplicationError';
-import { Request,Response,NextFunction } from "express";
+import { ApplicationError } from "./../../../shared/customErrors/ApplicationError";
+import { Request, Response, NextFunction } from "express";
 import { getAllRegisterServices } from "./getAllRegisterServices";
 
-
 const getAllRegisterController = async (
-  req: Request <{id:string}, {}, {}>,
+  req: Request<{ id: string }, {}, {}>,
   res: Response,
   next: NextFunction
 ) => {

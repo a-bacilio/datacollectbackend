@@ -9,17 +9,37 @@ import questionDownByIdController from "../services/update/questionDownByIdContr
 import questionUpByIdController from "../services/update/questionUpByIdController";
 import updateProjectNameByIdController from "../services/update/questionUpByIdController";
 
-
 const router = Router();
-router.get("/project/user/:userid",userTokenVerification, getProjectByUserIdController);
-router.get("/project/:id",userTokenVerification, getProjectByIdController);
-router.post("/project",userTokenVerification, createProjectController);
-router.delete("/project",userTokenVerification, deleteProjectController);
-router.put("/project/edit/name/:id",userTokenVerification, updateProjectNameByIdController);
+router.get(
+  "/project/user/:userid",
+  userTokenVerification,
+  getProjectByUserIdController
+);
+router.get("/project/:id", userTokenVerification, getProjectByIdController);
+router.post("/project", userTokenVerification, createProjectController);
+router.delete("/project", userTokenVerification, deleteProjectController);
+router.put(
+  "/project/edit/name/:id",
+  userTokenVerification,
+  updateProjectNameByIdController
+);
 
+router.put(
+  "/question/edit/moveup",
+  userTokenVerification,
+  questionUpByIdController
+);
+router.put(
+  "/question/edit/movedown",
+  userTokenVerification,
+  questionDownByIdController
+);
+router.delete(
+  "/question/delete",
+  userTokenVerification,
+  deleteQuestionController
+);
 
-router.put("/question/edit/moveup",userTokenVerification, questionUpByIdController);
-router.put("/question/edit/movedown",userTokenVerification, questionDownByIdController);
-router.delete("/question/delete",userTokenVerification, deleteQuestionController)
+router.get("/formquestions/:id", getProjectByIdController);
 
-export default router
+export default router;

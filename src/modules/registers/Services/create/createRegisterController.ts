@@ -1,15 +1,17 @@
-import { createRegisterService } from './createRegisterService';
-import { ICreateRegister } from './../../entity/registerInterface';
+import { createRegisterService } from "./createRegisterService";
+import { ICreateRegister } from "./../../entity/registerInterface";
 import { NextFunction, Request, Response } from "express";
-import { ApplicationError } from '../../../shared/customErrors/ApplicationError';
+import { ApplicationError } from "../../../shared/customErrors/ApplicationError";
 
 const createRegisterController = async (
-  req: Request <{}, {}, ICreateRegister>,
+  req: Request<{ id: string }, {}, ICreateRegister>,
   res: Response,
   next: NextFunction
 ) => {
   try {
-    const question = await createRegisterService(req.body);
+    const { data } = await req.body;
+    console.log(data, req.params);
+    const question = await createRegisterService(req.body, req.params);
     res.status(200).json(question);
   } catch (error: any) {
     next(new ApplicationError(400, error.message, error.errorType));
