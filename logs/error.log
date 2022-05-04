@@ -3829,3 +3829,301 @@ Error: ⨯ Unable to compile TypeScript:
 2022-05-03 11:38:18:3818 [31merror[39m: 	error validating body request La confirmación de contraseña es requerida
 
     instance: middlewares schema validation->  trace: La confirmación de contraseña es requerida
+2022-05-03 16:32:52:3252 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/routes/questionRoutes.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"multer"' has no exported member 'upload'.
+
+[7m6[0m import { upload } from "multer";
+[7m [0m [91m         ~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/routes/questionRoutes.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"multer"' has no exported member 'upload'.
+
+[7m6[0m import { upload } from "multer";
+[7m [0m [91m         ~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\routes\questionRoutes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-8362856566816224.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-8362856566816224.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-03 16:34:01:341 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/routes/questionRoutes.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"multer"' has no exported member 'upload'.
+
+[7m6[0m import { upload } from "multer";
+[7m [0m [91m         ~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/routes/questionRoutes.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"multer"' has no exported member 'upload'.
+
+[7m6[0m import { upload } from "multer";
+[7m [0m [91m         ~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\routes\questionRoutes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7962121503633246.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-7962121503633246.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 01:04:02:42 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS2552: [0mCannot find name 'file'. Did you mean 'File'?
+
+[7m5[0m     let ext = path.extname(file.originalname);
+[7m [0m [91m                           ~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m5064[0m:[93m13[0m
+    [7m5064[0m declare var File: {
+    [7m    [0m [96m            ~~~~[0m
+    'File' is declared here.
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m7[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'cb'.
+
+[7m7[0m       cb(new Error("File type is not supported"), false);
+[7m [0m [91m      ~~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'cb'.
+
+[7m10[0m     cb(null, true);
+[7m  [0m [91m    ~~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m5[0m:[93m5[0m - [91merror[0m[90m TS1131: [0mProperty or signature expected.
+
+[7m5[0m     let ext = path.extname(file.originalname);
+[7m [0m [91m    ~~~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m11[0m   },
+[7m  [0m [91m  ~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m11[0m   },
+[7m  [0m [91m   ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS2552: [0mCannot find name 'file'. Did you mean 'File'?
+
+[7m5[0m     let ext = path.extname(file.originalname);
+[7m [0m [91m                           ~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m5064[0m:[93m13[0m
+    [7m5064[0m declare var File: {
+    [7m    [0m [96m            ~~~~[0m
+    'File' is declared here.
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m7[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'cb'.
+
+[7m7[0m       cb(new Error("File type is not supported"), false);
+[7m [0m [91m      ~~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'cb'.
+
+[7m10[0m     cb(null, true);
+[7m  [0m [91m    ~~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m5[0m:[93m5[0m - [91merror[0m[90m TS1131: [0mProperty or signature expected.
+
+[7m5[0m     let ext = path.extname(file.originalname);
+[7m [0m [91m    ~~~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m11[0m   },
+[7m  [0m [91m  ~[0m
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m11[0m   },
+[7m  [0m [91m   ~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\middlewares\multerUploads\multerUploads.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-01326656105461943.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-01326656105461943.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 01:21:28:2128 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m16[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'sharp'.
+
+[7m16[0m       const data = await sharp(req.file.buffer)
+[7m  [0m [91m                         ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m16[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'sharp'.
+
+[7m16[0m       const data = await sharp(req.file.buffer)
+[7m  [0m [91m                         ~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\services\update\updateQuestionController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-01326656105461943.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-01326656105461943.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 01:22:37:2237 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m6[0m:[93m19[0m - [91merror[0m[90m TS7016: [0mCould not find a declaration file for module 'sharp'. 'F:/0001 Anthony/0002 Proyectos/0004 Cuenta Propia/0046 MakeitReal/0023 Proyecto personal/server/node_modules/sharp/lib/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/sharp` if it exists or add a new declaration (.d.ts) file containing `declare module 'sharp';`
+
+[7m6[0m import sharp from "sharp";
+[7m [0m [91m                  ~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m6[0m:[93m19[0m - [91merror[0m[90m TS7016: [0mCould not find a declaration file for module 'sharp'. 'F:/0001 Anthony/0002 Proyectos/0004 Cuenta Propia/0046 MakeitReal/0023 Proyecto personal/server/node_modules/sharp/lib/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/sharp` if it exists or add a new declaration (.d.ts) file containing `declare module 'sharp';`
+
+[7m6[0m import sharp from "sharp";
+[7m [0m [91m                  ~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\services\update\updateQuestionController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-01326656105461943.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-01326656105461943.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 01:23:14:2314 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m6[0m:[93m19[0m - [91merror[0m[90m TS7016: [0mCould not find a declaration file for module 'sharp'. 'F:/0001 Anthony/0002 Proyectos/0004 Cuenta Propia/0046 MakeitReal/0023 Proyecto personal/server/node_modules/sharp/lib/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/sharp` if it exists or add a new declaration (.d.ts) file containing `declare module 'sharp';`
+
+[7m6[0m import sharp from "sharp";
+[7m [0m [91m                  ~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m6[0m:[93m19[0m - [91merror[0m[90m TS7016: [0mCould not find a declaration file for module 'sharp'. 'F:/0001 Anthony/0002 Proyectos/0004 Cuenta Propia/0046 MakeitReal/0023 Proyecto personal/server/node_modules/sharp/lib/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/sharp` if it exists or add a new declaration (.d.ts) file containing `declare module 'sharp';`
+
+[7m6[0m import sharp from "sharp";
+[7m [0m [91m                  ~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\services\update\updateQuestionController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-25302408766448425.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-25302408766448425.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 01:25:44:2544 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m27[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'result'.
+
+[7m27[0m       console.log(result);
+[7m  [0m [91m                  ~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m27[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'result'.
+
+[7m27[0m       console.log(result);
+[7m  [0m [91m                  ~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\services\update\updateQuestionController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-25302408766448425.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-25302408766448425.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 02:23:55:2355 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m23[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'cloudinary'.
+
+[7m23[0m       const stream = await cloudinary.uploader.upload_stream(
+[7m  [0m [91m                           ~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/questions/services/update/updateQuestionController.ts[0m:[93m23[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'cloudinary'.
+
+[7m23[0m       const stream = await cloudinary.uploader.upload_stream(
+[7m  [0m [91m                           ~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\services\update\updateQuestionController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 12:16:04:164 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m3[0m:[93m41[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CloudinaryStore'.
+
+[7m3[0m const multerUploads = multer({ storage: CloudinaryStore }).single("image");
+[7m [0m [91m                                        ~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/multerUploads/multerUploads.ts[0m:[93m3[0m:[93m41[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CloudinaryStore'.
+
+[7m3[0m const multerUploads = multer({ storage: CloudinaryStore }).single("image");
+[7m [0m [91m                                        ~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\middlewares\multerUploads\multerUploads.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 12:18:51:1851 [31merror[39m: 	uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as put] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\routes\questionRoutes.ts:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-04 12:19:12:1912 [31merror[39m: 	uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as put] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\src\modules\questions\routes\questionRoutes.ts:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-06684687493715846.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\0046 MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
