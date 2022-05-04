@@ -10,7 +10,6 @@ const createRegisterController = async (
 ) => {
   try {
     const { data } = await req.body;
-    console.log(data, req.params);
     const question = await createRegisterService(req.body, req.params);
     res.status(200).json(question);
   } catch (error: any) {

@@ -6,7 +6,6 @@ import { handleMemoryToFile } from "../../modules/shared/services/cloudinaryMult
 const uploadImagesMiddleware =
   (nameField: string) =>
   async (req: Request, res: Response, next: NextFunction) => {
-    console.log(req.file);
     handleMemoryToFile(nameField)(req, res, function (err) {
       if (err instanceof MulterError) {
         next();
