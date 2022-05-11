@@ -4127,3 +4127,6 @@ Error: Route.put() requires a callback function but got a [object Undefined]
     at Module.load (node:internal/modules/cjs/loader:981:32)
 
       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-10 22:40:41:4041 [31merror[39m: 	error creating user
+
+    instance: createResourceFactory->  trace: E11000 duplicate key error collection: proyectomakeitper.users index: email_1 dup key: { email: "bacilio.anthony2@gmail.com" }
