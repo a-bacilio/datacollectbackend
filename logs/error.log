@@ -4130,3 +4130,417 @@ Error: Route.put() requires a callback function but got a [object Undefined]
 2022-05-10 22:40:41:4041 [31merror[39m: 	error creating user
 
     instance: createResourceFactory->  trace: E11000 duplicate key error collection: proyectomakeitper.users index: email_1 dup key: { email: "bacilio.anthony2@gmail.com" }
+2022-05-23 11:09:09:99 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/projects/services/update/questionDownByIdService.ts[0m:[93m15[0m:[93m15[0m - [91merror[0m[90m TS2339: [0mProperty 'p' does not exist on type '{ projectId: string; order: number; }'.
+
+[7m15[0m     if (!body.p) throw new Error("project doesnt exist");
+[7m  [0m [91m              ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/projects/services/update/questionDownByIdService.ts[0m:[93m15[0m:[93m15[0m - [91merror[0m[90m TS2339: [0mProperty 'p' does not exist on type '{ projectId: string; order: number; }'.
+
+[7m15[0m     if (!body.p) throw new Error("project doesnt exist");
+[7m  [0m [91m              ~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\projects\services\update\questionDownByIdService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 21:09:45:945 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m23[0m:[93m17[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m23[0m       registers.forEach();
+[7m  [0m [91m                ~~~~~~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m1404[0m:[93m13[0m
+    [7m1404[0m     forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;
+    [7m    [0m [96m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'callbackfn' was not provided.
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m23[0m:[93m17[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m23[0m       registers.forEach();
+[7m  [0m [91m                ~~~~~~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m1404[0m:[93m13[0m
+    [7m1404[0m     forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;
+    [7m    [0m [96m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'callbackfn' was not provided.
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 21:32:59:3259 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m14[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if(predata[register.data[question.name]])
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m         }
+[7m  [0m [91m        ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m14[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if(predata[register.data[question.name]])
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m         }
+[7m  [0m [91m        ~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 21:35:11:3511 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m14[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if(predata[register.data[question.name as string]])
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m         }
+[7m  [0m [91m        ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m14[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if(predata[register.data[question.name as string]])
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m         }
+[7m  [0m [91m        ~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 21:35:43:3543 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m20[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'type' does not exist on type '{ name: string; }'.
+
+[7m20[0m         name: `${question.name}${question.type}`,
+[7m  [0m [91m                                          ~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name as string]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m20[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'type' does not exist on type '{ name: string; }'.
+
+[7m20[0m         name: `${question.name}${question.type}`,
+[7m  [0m [91m                                          ~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name as string]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 21:36:25:3625 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 21:36:52:3652 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m23[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.
+  No index signature with a parameter of type 'string' was found on type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m23[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.
+  No index signature with a parameter of type 'string' was found on type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 21:37:11:3711 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m15[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+
+[7m26[0m           if (predata[register.data[question.name]]) {
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 22:02:44:244 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m17[0m - [91merror[0m[90m TS7005: [0mVariable 'predata' implicitly has an 'any' type.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                       ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m17[0m - [91merror[0m[90m TS7005: [0mVariable 'predata' implicitly has an 'any' type.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                       ~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 22:03:16:316 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m17[0m - [91merror[0m[90m TS7005: [0mVariable 'predata' implicitly has an 'any' type.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                       ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m17[0m - [91merror[0m[90m TS7005: [0mVariable 'predata' implicitly has an 'any' type.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m           const predata.value = register.data[question.name];
+[7m  [0m [91m                       ~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 22:04:44:444 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m17[0m - [91merror[0m[90m TS7005: [0mVariable 'predata' implicitly has an 'any' type.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                       ~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m25[0m - [91merror[0m[90m TS1181: [0mArray element destructuring pattern expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                        ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m32[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                               ~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m34[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                                 ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m17[0m - [91merror[0m[90m TS7005: [0mVariable 'predata' implicitly has an 'any' type.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                       ~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m25[0m - [91merror[0m[90m TS1181: [0mArray element destructuring pattern expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                        ~~~~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m32[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                               ~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m34[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m26[0m           const predata["value"] = register.data[question.name];
+[7m  [0m [91m                                 ~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-23 22:35:29:3529 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m11[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type '"value"' can't be used to index type '{}'.
+  Property 'value' does not exist on type '{}'.
+
+[7m26[0m           predata["value"] = register.data[question.name];
+[7m  [0m [91m          ~~~~~~~~~~~~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m11[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type '"value"' can't be used to index type '{}'.
+  Property 'value' does not exist on type '{}'.
+
+[7m26[0m           predata["value"] = register.data[question.name];
+[7m  [0m [91m          ~~~~~~~~~~~~~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-24 01:14:48:1448 [31merror[39m: 	uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m25[0m:[93m58[0m - [91merror[0m[90m TS2339: [0mProperty 'name' does not exist on type '{ labelText: string; }'.
+
+[7m25[0m         if (Object.keys(register.data).includes(question.name)) {
+[7m  [0m [91m                                                         ~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'name' does not exist on type '{ labelText: string; }'.
+
+[7m26[0m           const value = register.data[question.name];
+[7m  [0m [91m                                               ~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m25[0m:[93m58[0m - [91merror[0m[90m TS2339: [0mProperty 'name' does not exist on type '{ labelText: string; }'.
+
+[7m25[0m         if (Object.keys(register.data).includes(question.name)) {
+[7m  [0m [91m                                                         ~~~~[0m
+[96msrc/modules/registers/Services/getAll/getAllGraphService.ts[0m:[93m26[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'name' does not exist on type '{ labelText: string; }'.
+
+[7m26[0m           const value = register.data[question.name];
+[7m  [0m [91m                                               ~~~~[0m
+
+    at Object.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\modules\registers\Services\getAll\getAllGraphService.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at require.extensions.<computed> (C:\Users\Pcx\AppData\Local\Temp\ts-node-dev-hook-9299510332966905.js:71:20)
+    at Object.nodeDevHook [as .ts] (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+
+      trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
