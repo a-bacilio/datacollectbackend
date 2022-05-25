@@ -11,10 +11,16 @@ This one is a typescript node js project build with the following libraries
 
 ## You can install it from docker, 
 
-its name is : 
+````
+abacilioruiz/datacollbackend
+````
+
 
 ## or the github Repo
 
+````
+https://github.com/a-bacilio/datacollectbackend/tree/master
+````
 
 
 ## it has 4 important scripts:
