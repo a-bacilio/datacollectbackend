@@ -11,9 +11,7 @@ const createQuestionService = async (
     if (Object.keys(question).length === 0) {
       throw new Error("question object is empty");
     }
-    console.log(question);
     const project = await projectModel.findOne({ _id: question.project });
-    console.log(project);
     const questions = project?.questions;
     const newQuestion: IQuestion = await questionModel.create({
       ...question,

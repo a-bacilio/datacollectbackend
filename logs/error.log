@@ -4544,3 +4544,11 @@ Error: ⨯ Unable to compile TypeScript:
     at Module.require (node:internal/modules/cjs/loader:1005:19)
 
       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-05-24 19:17:43:1743 [31merror[39m: 	uncaughtException: error connecting database
+Error: error connecting database
+    at NativeConnection.<anonymous> (F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\src\config\config.ts:8:13)
+    at NativeConnection.emit (node:events:526:28)
+    at F:\0001 Anthony\0002 Proyectos\0004 Cuenta Propia\MakeitReal\0023 Proyecto personal\server\node_modules\mongoose\lib\connection.js:817:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+      trace: [object Object],[object Object],[object Object],[object Object]
